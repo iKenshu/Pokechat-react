@@ -113,7 +113,7 @@ var PokeApp = (function (_React$Component) {
 			} else {
 				return _react2['default'].createElement(
 					'p',
-					null,
+					{ className: 'Loading' },
 					'Cargando una lista de pokemones...'
 				);
 			}

@@ -50,7 +50,6 @@ table {
 	width: 120px;
 	display: inline-block;
 	text-align: center;
-
 }
 
 .Avatar {
@@ -60,25 +59,34 @@ table {
 }
 
 .PokeRow {
-	background-color: lightblue;
-	border: 1px solid black;
+	background-color: #FFE390;
+	border: 1px solid #FF926B;
 	width: 100%;
 	height: 80px;
 	line-height: 80px;
 }
 
+.PokeMessage {
+	background-color: #FF4A4A;
+	color: #FFE390;
+	padding: .5em;
+	margin: .2em;
+	border-radius: .2em;
+	font-size: 2em;
+}
+
 .PokeTable {
 	width: 30%;
 	float: left;
-	height: 100%;
-	overflow: hidden;
+	height: 150%;
+	overflow: scroll;
 }
 
 .PokeChat {
 	width: 70%;
 	float: right;
 	height: 100%;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .PokeApp {
@@ -87,8 +95,14 @@ table {
 }
 .Message-animation-enter{
 	opacity: 0;
-	transition: opacity .5s ease-in;
+	transition: opacity .3s ease-in;
 }
 .Message-animation-enter.Message-animation-enter-active{
 	opacity: 1;
+}
+
+.Loading {
+	text-align: center;
+	background-color: #FF4A4A;
+	font-size: 2em;
 }
