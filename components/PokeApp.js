@@ -48,7 +48,7 @@ export default class PokeApp extends React.Component {
 			</div>
 		}
 		else {
-			return <p className="Loading">Cargando una lista de pokemones...</p>
+			return <span className="Loading">Cargando una lista de pokemones...</span>
 		}
 	}
 }

@@ -102,7 +102,7 @@ table {
 }
 
 .Loading {
-	text-align: center;
+	margin: 0 auto;
 	background-color: #FF4A4A;
 	font-size: 2em;
 }
