@@ -5,7 +5,7 @@ import http from 'http';
 import engine from 'socket.io';
 import dbapi from './db-api';
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const app = express();
 
 //Ruta de archivos estaticos
