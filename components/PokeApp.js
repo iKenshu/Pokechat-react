@@ -19,7 +19,7 @@ export default class PokeApp extends React.Component {
 		$.get('/pokemons', (pokemons) => {
 			this.setState({ pokemons:pokemons });
 		});
-		this.socket = io('http://localhost:3000');
+		this.socket = io('https://poke-chat.herokuapp.com/');
 		this.socket.on('message', (message) => {
 			if (message.user !== this.user) {
 				this.newMessage(message)
